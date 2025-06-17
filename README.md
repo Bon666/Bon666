@@ -10,7 +10,7 @@
 📊 [COVID-19 Data Modeling](https://github.com/Bon666/covid19-data-modeling.git)  
 Used regression models and curve fitting to analyze pandemic data and predict trends. Visualized outcomes using Python (matplotlib, seaborn).
 
-📦 [Linear Programming Solver](https://github.com/yourname/lp-solver)  
+📦 [Linear Programming Solver](https://github.com/Bon666/linear-programming-solver.git)  
 Implemented a simplex method solver from scratch in Python to handle small-scale LP problems. Includes interactive input and LaTeX output.
 
 📈 [PCA Visualization of Iris Dataset](https://github.com/yourname/pca-iris)  
