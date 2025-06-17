@@ -22,8 +22,10 @@ This project performs exploratory data analysis and visualization of Apple Inc. 
 📈 [Portfolio Optimizer](https://github.com/Bon666/portfolio_optimizer.git)  
 This project builds a portfolio optimization model using historical price data of multiple stocks. It calculates the optimal asset allocation to maximize returns relative to risk (Sharpe Ratio) or to minimize portfolio volatility.
 
-📈 [Global Financial Indicators Tracker](https://github.com/Bon666/portfolio_optimizer.git)  
+📈 [Global Financial Indicators Tracker](https://github.com/Bon666/Financial-Data-Tracker.git)  
 A Python-based project that pulls and visualizes real-time financial indicators — including stock indices, equities, and commodity ETFs — using Yahoo Finance as a data source.
+[Global Market Intelligence Dashboard](https://github.com/Bon666/Financial-Data-Tracker.git)  
+An advanced, multi-asset data analysis project designed to assess global financial markets. This project brings together risk-return analysis, dimensionality reduction, asset clustering, and interactive visualizations — all powered by real-world financial data from Yahoo Finance.
 
 ---
 
