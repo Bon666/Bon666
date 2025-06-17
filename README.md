@@ -16,9 +16,11 @@ Implemented a simplex method solver from scratch in Python to handle small-scale
 📈 [PCA Visualization of Iris Dataset](https://github.com/Bon666/pca-iris-visualization.git)  
 Applied Principal Component Analysis on classic datasets to demonstrate dimensionality reduction and clustering.
 
-🧮 [Stock Price Analysis](https://github.com/yourname/numerical-methods)  
-A collection of numerical methods (e.g., Newton-Raphson, Euler’s method, integration) coded in Python with visualizations and math explanations.
+🧮 [Stock Price Analysis](https://github.com/Bon666/stock-price-analysis.git)  
+This project performs exploratory data analysis and visualization of Apple Inc. (AAPL)'s stock price using data pulled directly from Yahoo Finance.
 
+📈 [Portfolio Optimizer](https://github.com/Bon666/pca-iris-visualization.git)  
+This project builds a portfolio optimization model using historical price data of multiple stocks. It calculates the optimal asset allocation to maximize returns relative to risk (Sharpe Ratio) or to minimize portfolio volatility.
 ---
 
 ## 📌 Skills & Tools
