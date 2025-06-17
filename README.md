@@ -13,7 +13,7 @@ Used regression models and curve fitting to analyze pandemic data and predict tr
 📦 [Linear Programming Solver](https://github.com/Bon666/linear-programming-solver.git)  
 Implemented a simplex method solver from scratch in Python to handle small-scale LP problems. Includes interactive input and LaTeX output.
 
-📈 [PCA Visualization of Iris Dataset](https://github.com/yourname/pca-iris)  
+📈 [PCA Visualization of Iris Dataset](https://github.com/Bon666/pca-iris-visualization.git)  
 Applied Principal Component Analysis on classic datasets to demonstrate dimensionality reduction and clustering.
 
 🧮 [Numerical Methods Notebook](https://github.com/yourname/numerical-methods)  
