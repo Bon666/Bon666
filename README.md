@@ -7,7 +7,7 @@
 
 ## 🚀 Selected Projects
 
-📊 [COVID-19 Data Modeling](https://github.com/yourname/covid-modeling)  
+📊 [COVID-19 Data Modeling](https://github.com/Bon666/covid19-data-modeling.git)  
 Used regression models and curve fitting to analyze pandemic data and predict trends. Visualized outcomes using Python (matplotlib, seaborn).
 
 📦 [Linear Programming Solver](https://github.com/yourname/lp-solver)  
