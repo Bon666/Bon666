@@ -19,8 +19,11 @@ Applied Principal Component Analysis on classic datasets to demonstrate dimensio
 🧮 [Stock Price Analysis](https://github.com/Bon666/stock-price-analysis.git)  
 This project performs exploratory data analysis and visualization of Apple Inc. (AAPL)'s stock price using data pulled directly from Yahoo Finance.
 
-[Portfolio Optimizer](https://github.com/Bon666/pca-iris-visualization.git)  
+📈 [Portfolio Optimizer](https://github.com/Bon666/portfolio_optimizer.git)  
 This project builds a portfolio optimization model using historical price data of multiple stocks. It calculates the optimal asset allocation to maximize returns relative to risk (Sharpe Ratio) or to minimize portfolio volatility.
+
+📈 [Global Financial Indicators Tracker](https://github.com/Bon666/portfolio_optimizer.git)  
+A Python-based project that pulls and visualizes real-time financial indicators — including stock indices, equities, and commodity ETFs — using Yahoo Finance as a data source.
 
 ---
 
