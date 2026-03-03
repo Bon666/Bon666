@@ -27,12 +27,10 @@
 
 ## 📌 Skills & Tools
 
-- Python (NumPy, SciPy, Matplotlib, Pandas, SymPy)  
-- R for statistics and ggplot2  
-- MATLAB for linear algebra and simulations  
-- LaTeX for scientific documentation  
-- Git/GitHub for version control
-
+- Languages: Java, Python, C/C++, SQL, TypeScript, JavaScript, HTML/CSS, Assembly, R
+- Frameworks and Libraries: React, Node.js, Express, Next.js, Tailwind, Socket.IO, NumPy, pandas, scikit-learn, PyTorch
+- Tools and Technologies:: Git, AWS, Docker, JUnit, Mocha/Chai, PostgreSQL, REST APIs, Object Oriented Design, AI-Assisted CLI (Codex, Claude Code)
+Language Proficiency: English, Cantonese, Mandarin
 ---
 
 ## 📫 Let’s Connect
