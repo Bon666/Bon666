@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Bonde Zhang
 
-🎓 I'm a Mathematics student passionate about applying mathematical thinking to solve real-world problems through code. 🧠 Interests: Mathematical Modeling | Data Analysis | Algorithms | Visualization  
+🎓 I'm a Mathematics student passionate about applying mathematical thinking to solve real-world problems through code. 🧠 Interests: Mathematical Modeling | Data Analysis | Software Engineering |  
 💻 Languages: Python, MATLAB, R, LaTeX, Java
 
 ---
