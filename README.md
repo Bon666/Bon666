@@ -16,6 +16,7 @@
 💻 [Neural Retrieval QA](https://github.com/Bon666/Neural-Retrieval-QA)  
 • Built a production-style 2-stage QA retrieval system that returned a single best passage from top-50 candidates by combining Sentence-Transformers bi-encoder retrieval with FAISS IndexFlatIP search and CrossEncoder reranking in FastAPI
 • Reduced online ranking noise by re-scoring retrieved candidates with a cross-encoder stage and returning only the top result, with full per-result retriever and reranker score transparency for debugging and model validation.
+
 💻 [InsightUBC](https://github.com/Bon666/InsightUBC/tree/main)  
 • Developed a REST API and complex query engine for UBC datasets, supporting filtering, GROUP/APPLY aggregations, and multi-key sorting.
 • Achieved 100% reliability with Mocha/Chai and Supertest coverage, handling concurrent dataset parsing (ZIP/JSON) and on-disk caching.
