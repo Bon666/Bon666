@@ -8,8 +8,8 @@
 ## 🚀 Selected Projects
 
 
-📈 [Global Financial Indicators Tracker](https://github.com/Bon666/Financial-Data-Tracker.git)  
-A Python-based project that pulls and visualizes real-time financial indicators — including stock indices, equities, and commodity ETFs — using Yahoo Finance as a data source.
+📈 [Quant Risk Lab Pro](https://github.com/Bon666/Quant-Risk-Lab/tree/main)  
+Quant risk & portfolio analytics web app (FastAPI + React + PostgreSQL) with VaR/CVaR (Historical/Parametric/Correlated Monte Carlo/EVT), optimization, and backtesting.
 
 📈 [Global Market Intelligence Dashboard](https://github.com/Bon666/market-intelligence-dashboard.git)  
 An advanced, multi-asset data analysis project designed to assess global financial markets. This project brings together risk-return analysis, dimensionality reduction, asset clustering, and interactive visualizations — all powered by real-world financial data from Yahoo Finance.
