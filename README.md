@@ -9,10 +9,14 @@
 
 
 📈 [Quant Risk Lab Pro](https://github.com/Bon666/Quant-Risk-Lab/tree/main)  
-Quant risk & portfolio analytics web app (FastAPI + React + PostgreSQL) with VaR/CVaR (Historical/Parametric/Correlated Monte Carlo/EVT), optimization, and backtesting.
+• Analyzed 5 years of multi-asset equity time series (25+ assets) to evaluate volatility clustering, maximum drawdown, and risk-adjusted returns.
+• Implemented rolling Sharpe ratio and downside deviation metrics to compare dynamic allocation strategies.
+• Visualized portfolio trends and performance comparisons to support investment strategy evaluation.
 
-📈 [Global Market Intelligence Dashboard](https://github.com/Bon666/market-intelligence-dashboard.git)  
-An advanced, multi-asset data analysis project designed to assess global financial markets. This project brings together risk-return analysis, dimensionality reduction, asset clustering, and interactive visualizations — all powered by real-world financial data from Yahoo Finance.
+💻 [Neural Retrieval QA](https://github.com/Bon666/Neural-Retrieval-QA)  
+• Built a production-style 2-stage QA retrieval system that returned a single best passage from top-50 candidates by combining Sentence-Transformers bi-encoder retrieval with FAISS IndexFlatIP search and CrossEncoder reranking in FastAPI
+• Reduced online ranking noise by re-scoring retrieved candidates with a cross-encoder stage and returning only the top result, with full per-result retriever and reranker score transparency for debugging and model validation.
+
 
 ---
 
