@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram 增粉服务页面</title>
+    <style>
+      :root {
+        --bg: #0f1020;
+        --card: #171a2b;
+        --accent: #ff4fa3;
+        --accent2: #7a5cff;
+        --text: #f3f5ff;
+        --muted: #b5bad6;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+        background: radial-gradient(circle at top, #1b1f3f, var(--bg) 50%);
+        color: var(--text);
+        min-height: 100vh;
+      }
+      .wrap {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 56px 20px;
+      }
+      .hero {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      .hero h1 {
+        font-size: clamp(2rem, 4vw, 3rem);
+        margin: 0 0 10px;
+      }
+      .hero p {
+        margin: 0;
+        color: var(--muted);
+      }
+      .grid {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      }
+      .card {
+        background: linear-gradient(160deg, #1a1e35, var(--card));
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 16px;
+        padding: 22px;
+      }
+      .price {
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 10px 0;
+      }
+      .btn {
+        width: 100%;
+        padding: 12px 16px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-weight: 600;
+        background: linear-gradient(90deg, var(--accent2), var(--accent));
+      }
+      .form {
+        margin-top: 28px;
+        background: var(--card);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 16px;
+        padding: 22px;
+      }
+      label {
+        display: block;
+        margin: 12px 0 6px;
+        color: var(--muted);
+      }
+      input, select {
+        width: 100%;
+        padding: 11px;
+        border-radius: 8px;
+        border: 1px solid #363a56;
+        background: #0f1224;
+        color: white;
+      }
+      .tip {
+        margin-top: 12px;
+        color: #ffd37d;
+        font-size: 0.9rem;
+      }
+      .ok {
+        margin-top: 14px;
+        color: #7df5b2;
+        font-weight: 600;
+      }
+      footer {
+        margin-top: 28px;
+        color: #8c92b8;
+        font-size: 0.85rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="hero">
+        <h1>Instagram 增粉落地页模板</h1>
+        <p>用于展示账号增长服务，可按你的品牌文案继续调整。</p>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h3>基础套餐</h3>
+          <p class="price">¥99</p>
+          <p>目标涨粉：1,000</p>
+          <button class="btn" data-plan="基础套餐">选择此套餐</button>
+        </article>
+        <article class="card">
+          <h3>进阶套餐</h3>
+          <p class="price">¥299</p>
+          <p>目标涨粉：5,000</p>
+          <button class="btn" data-plan="进阶套餐">选择此套餐</button>
+        </article>
+        <article class="card">
+          <h3>品牌套餐</h3>
+          <p class="price">¥599</p>
+          <p>目标涨粉：10,000</p>
+          <button class="btn" data-plan="品牌套餐">选择此套餐</button>
+        </article>
+      </section>
+
+      <section class="form">
+        <h2>提交需求</h2>
+        <label for="handle">Instagram 用户名</label>
+        <input id="handle" placeholder="例如 @yourbrand" />
+
+        <label for="plan">套餐</label>
+        <select id="plan">
+          <option>基础套餐</option>
+          <option>进阶套餐</option>
+          <option>品牌套餐</option>
+        </select>
+
+        <label for="contact">联系方式</label>
+        <input id="contact" placeholder="微信 / 邮箱 / 电话" />
+
+        <button id="submit" class="btn" style="margin-top:16px">立即提交</button>
+        <p class="tip">提示：建议使用真实、合规的内容增长策略，避免违反平台规则。</p>
+        <p id="result" class="ok" aria-live="polite"></p>
+      </section>
+
+      <footer>
+        本页面仅为演示模板，不与 Instagram 官方存在合作关系。
+      </footer>
+    </main>
+
+    <script>
+      const planSelect = document.getElementById('plan');
+      const result = document.getElementById('result');
+
+      document.querySelectorAll('.btn[data-plan]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          planSelect.value = btn.dataset.plan;
+          result.textContent = `已选择：${btn.dataset.plan}`;
+        });
+      });
+
+      document.getElementById('submit').addEventListener('click', () => {
+        const handle = document.getElementById('handle').value.trim();
+        const contact = document.getElementById('contact').value.trim();
+        if (!handle || !contact) {
+          result.textContent = '请先填写用户名和联系方式。';
+          return;
+        }
+        result.textContent = `提交成功：${handle}（${planSelect.value}）我们会尽快联系你。`;
+      });
+    </script>
+  </body>
+</html>
